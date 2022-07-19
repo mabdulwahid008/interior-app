@@ -1,0 +1,39 @@
+.section3{
+    height: 627px;
+}
+.paralex{
+    background-image: url('../../images//img5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 0 200px;
+    height: 427px;
+}
+.paralex>h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.paralex>div{
+    margin-top: 20px;
+    width: 350px;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .paralex{
+        padding: 180px 0 0 30px;
+        height: 480px;
+    }
+    .paralex>h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .paralex>div{
+        width: auto;
+    }
+}
